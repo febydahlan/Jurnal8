@@ -30,7 +30,6 @@ public class JavaApplication1 {
         }
         for (int i = fibonacci.length ; i !=  0 ; i--) {
             System.out.print(fibonacci[i-1] +" ");
-            
         }
         System.out.println();
     }
