@@ -28,10 +28,11 @@ public class JavaApplication1 {
         for (int i = 2; i <  n; i++) {
             fibonacci[i]= fibonacci[i-1]  + fibonacci[i-2];
         }
-        for (int i = 0; i <  n; i++) {
-            tmp = tmp + (int) fibonacci [i] ;
+        for (int i = fibonacci.length ; i !=  0 ; i--) {
+            System.out.print(fibonacci[i-1] +" ");
+            
         }
-        System.out.println(" " +tmp);
+        System.out.println();
     }
     
 }
